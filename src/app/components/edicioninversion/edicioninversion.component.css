@@ -298,3 +298,7 @@
 .text-muted {
   color: #919aa3 !important;
 }
+
+.pay-button {
+  background: #00c29f;
+}

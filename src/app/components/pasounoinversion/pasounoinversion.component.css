@@ -298,3 +298,11 @@
 .text-muted {
   color: #919aa3 !important;
 }
+.step-header {
+  background-color: #fff;
+}
+
+/****/
+.next-button {
+  background: #4186ba;
+}

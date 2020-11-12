@@ -46,6 +46,8 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 // SPINNER
 import { NgxSpinnerModule } from 'ngx-spinner';
 
+/** SLIDE TOGGLE */
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 //NGX Socket
 //import { SocketIoModule, SocketIoConfig } from 'ngx-socket-io';
 
@@ -106,6 +108,7 @@ import { MensajefinalComponent } from './components/mensajefinal/mensajefinal.co
     MatTooltipModule,
     NgxSpinnerModule,
     NgbModule,
+    MatSlideToggleModule,
   ],
   providers: [DatePipe],
   bootstrap: [AppComponent],

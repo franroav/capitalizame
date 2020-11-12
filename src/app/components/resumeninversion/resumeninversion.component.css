@@ -298,3 +298,7 @@
 .text-muted {
   color: #919aa3 !important;
 }
+
+.next-button {
+  background: #4186ba;
+}

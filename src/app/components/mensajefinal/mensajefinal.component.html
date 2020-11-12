@@ -1,5 +1,4 @@
 <!--MENSAJE FINAL -->
-
 <div class="row my-1 animated fadeIn mensajeFinal" *ngIf="windowSize.x < 485">
   <div class="col-md-12">
     <div class="card mt-5">
@@ -8,27 +7,39 @@
           Tu simulación se ha guardado con éxito en el
           <a class="color-darkblue">portal de clientes</a>
         </h6>
-        <div class="my-5">
-          <h3 class="text-simulation">
-            <a class="color-darkblue">¿Qué quieres hacer ?</a>
-          </h3>
-        </div>
         <div class="card-body">
+          <div class="my-5">
+            <h3 class="text-simulation">
+              <a class="color-darkblue">¿Qué quieres hacer ?</a>
+            </h3>
+          </div>
           <div class="row">
             <div class="col-md-4">
-              <button mat-raised-button [routerLink]="['']">
-                <h6 class="first-title pt-2">Ver en el Portal</h6>
+              <button
+                mat-raised-button
+                [routerLink]="['']"
+                class="portal-button"
+              >
+                <h6 class="first-title mx-4 my-4 text-white">
+                  Ver en el Portal
+                </h6>
               </button>
             </div>
             <div class="col-md-4"></div>
             <div class="col-md-4">
-              <button mat-raised-button color="primary" class="mt-4">
-                Descargar
-                <img
-                  width="25px"
-                  class="px-1"
-                  src="../../../assets/services/ilustrations/Vector/file-text.png"
-                />
+              <button
+                mat-raised-button
+                color="primary"
+                class="download-button"
+                class="mt-4"
+              >
+                <h6 class="first-title text-white my-4 mx-4">
+                  Descargar<img
+                    width="40px"
+                    class="px-1"
+                    src="../../../assets/services/ilustrations/Vector/file-text.png"
+                  />
+                </h6>
               </button>
             </div>
           </div>

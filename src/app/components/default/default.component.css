@@ -247,9 +247,27 @@
   color: #4f4f4f;
 }
 
+/* Greeb Grass**/
+.color-greengrass {
+  color: #6eb42c;
+}
+
 .color-darkblue {
   color: #2b587a;
 }
+
+.row-footer {
+  background-color: #2b587a;
+}
+
+.card-footer {
+  background-color: #2b587a;
+}
+
+.img-center {
+  float: center;
+}
+
 /**Tootip Capitalizame**/
 .custom-tooltip-capitalizame {
   background-color: #fff;

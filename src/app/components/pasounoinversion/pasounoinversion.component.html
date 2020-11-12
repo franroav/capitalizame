@@ -1,14 +1,13 @@
 <!--PASO  1-->
-
 <div class="row my-1 animated fadeIn pasoUno" *ngIf="windowSize.x < 485">
-  <div class="col-md-12" style="background-color: #fff">
-    <h5 class="first-title mt-5 pl-2">Simula tu inversión - PASO 1 DE 3</h5>
+  <div class="col-md-12 step-header">
+    <h5 class="first-title mt-5 pl-4">Simula tu inversión - PASO 1 DE 3</h5>
     <hr class="bg bg-info" />
   </div>
   <div class="col-md-12">
     <div class="card">
       <div class="card-header">
-        <h6 class="first-title">Proyecto el Cobre II - Santiago</h6>
+        <h6 class="first-title pl-1">Proyecto el Cobre II - Santiago</h6>
         <div class="table-responsive-sm">
           <table>
             <thead>
@@ -150,15 +149,14 @@
       </div>
       <div class="card-body">
         <div class="table-responsive my-2">
-          <table class="table table-sm">
+          <table class="table table-sm table-borderless">
             <thead>
               <tr>
                 <td style="width: 70%"></td>
                 <td style="width: 30%">
-                  <img
-                    class="pr-1"
-                    src="../../../assets/services/ilustrations/Vector/Twitch texto Inactivo.png"
-                  />
+                  <mat-slide-toggle color="primary"
+                    >Precio (UF)</mat-slide-toggle
+                  >
                 </td>
               </tr>
             </thead>
@@ -213,17 +211,18 @@
               <td style="width: 5%"></td>
               <td style="width: 25%">
                 <button mat-raised-button [routerLink]="['']">
-                  <h6 class="first-title pt-2">Volver</h6>
+                  <h6 class="first-title my-4 mx-4">Volver</h6>
                 </button>
               </td>
               <td style="width: 40%"></td>
               <td style="width: 25%">
                 <button
+                  class="next-button"
                   mat-raised-button
                   color="primary"
                   [routerLink]="['/pasodosinversion']"
                 >
-                  Siguiente
+                  <h6 class="first-title text-white my-4 mx-4">Siguiente</h6>
                 </button>
               </td>
               <td style="width: 5%"></td>

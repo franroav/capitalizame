@@ -1,0 +1,244 @@
+<!--RESUMEN -->
+<div
+  class="row my-3 animated fadeIn resumenInversion"
+  *ngIf="windowSize.x < 485"
+>
+  <div class="col-md-12" style="background-color: #fff">
+    <h5 class="first-title mt-5 pl-2">Simula tu inversión - RESUMEN</h5>
+    <hr class="bg bg-info" />
+  </div>
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-header">
+        <h6 class="first-title">Proyecto el Cobre II - Santiago</h6>
+        <div class="my-2">
+          <h3 class="text-simulation">Este es el resumen de tu inversión:</h3>
+        </div>
+      </div>
+      <div class="card-body">
+        <!--Tabla -->
+        <div class="table-responsive my-2">
+          <table class="table table-sm">
+            <thead>
+              <tr>
+                <td style="width: 70%"></td>
+                <td style="width: 30%">
+                  <img
+                    class="pr-1"
+                    src="../../../assets/services/ilustrations/Vector/Twitch texto Inactivo.png"
+                  />
+                </td>
+              </tr>
+            </thead>
+            <thead class="mt-5">
+              <tr>
+                <th><h6 class="first-title pl-2">Unidades</h6></th>
+                <th><h6 class="first-title pl-2">Precio($)</h6></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table-light">
+                <td></td>
+              </tr>
+              <tr class="table-info py-2">
+                <td>Departamento 2002</td>
+                <td>$ 49.000.000</td>
+              </tr>
+              <tr class="table-light">
+                <td></td>
+              </tr>
+              <tr class="table-info py-2">
+                <td>Estacionamiento 128B</td>
+                <td>$ 415.000</td>
+              </tr>
+              <tr class="table-light">
+                <td></td>
+              </tr>
+              <tr class="table-info py-2">
+                <td>Estacionamiento 128B</td>
+                <td>$ 415.000</td>
+              </tr>
+              <tr class="table-light">
+                <td></td>
+              </tr>
+              <tr class="table-primary py-2">
+                <td><h3 class="text-primary">Pie a Pagar</h3></td>
+                <td>$49.000</td>
+              </tr>
+              <tr class="table-light">
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!--Tabla -->
+        <div class="table-responsive my-2">
+          <table class="table table-sm">
+            <thead class="mt-5">
+              <tr>
+                <th><h6 class="first-title pl-2">Unidades</h6></th>
+                <th><h6 class="first-title pl-2">Precio($)</h6></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table-light">
+                <td></td>
+              </tr>
+              <tr class="table-info py-2">
+                <td>Pie total(15%)</td>
+                <td>$8.000.000</td>
+              </tr>
+              <tr class="table-light">
+                <td></td>
+              </tr>
+              <tr class="table-info py-2">
+                <td>- Abono</td>
+                <td>- $400.000</td>
+              </tr>
+              <tr class="table-light">
+                <td></td>
+              </tr>
+              <tr class="table-info py-2">
+                <td>Reserva</td>
+                <td>$200.000</td>
+              </tr>
+              <tr class="table-light">
+                <td></td>
+              </tr>
+              <tr class="table-primary py-2">
+                <td><h3 class="text-primary">Pie a Pagar</h3></td>
+                <td>$7.400.000</td>
+              </tr>
+              <tr class="table-light">
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!--Table -->
+        <div class="table-responsive my-2">
+          <table class="table table-sm">
+            <thead class="mt-5">
+              <tr>
+                <th><h6 class="first-title pl-2">Tipo de Pago</h6></th>
+                <th><h6 class="first-title pl-2">Cuotas</h6></th>
+                <th><h6 class="first-title pl-2">Precio($)</h6></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table-light">
+                <td></td>
+              </tr>
+              <tr class="table-info py-2">
+                <td>
+                  Pre Entrega
+                  <button
+                    mat-icon-button
+                    matTooltip=" ❔ El mínimo permitido por la inmobiliaria es el 15%"
+                    matTooltipClass="custom-tooltip-capitalizame"
+                    aria-label="monto minimo abono 15%"
+                  >
+                    <img
+                      width="25px"
+                      class="px-1"
+                      src="../../../assets/services/ilustrations/Vector/question-circle.png"
+                    />
+                  </button>
+                </td>
+                <td>15 Cheques</td>
+                <td>$150.000</td>
+              </tr>
+              <tr class="table-light">
+                <td></td>
+              </tr>
+              <tr class="table-info py-2">
+                <td>
+                  Pos-entrega
+                  <button
+                    mat-icon-button
+                    matTooltip=" ❔ El mínimo permitido por la inmobiliaria es el 15%"
+                    matTooltipClass="custom-tooltip-capitalizame"
+                    aria-label="monto minimo abono 15%"
+                  >
+                    <img
+                      width="25px"
+                      class="px-1"
+                      src="../../../assets/services/ilustrations/Vector/question-circle.png"
+                    />
+                  </button>
+                </td>
+                <td>5 T.Crédito</td>
+                <td>$200.000</td>
+              </tr>
+              <tr class="table-light">
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <h3 class="text-simulation">
+            <a class="color-darkblue">click acá</a>
+            para editar tu tabla
+          </h3>
+        </div>
+        <div class="my-2">
+          <table>
+            <tbody>
+              <tr>
+                <td style="width: 50%"></td>
+                <td style="width: 50%">
+                  <button mat-raised-button>
+                    <h6 class="first-title pt-2">Guardar Simulación</h6>
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="my-2">
+          <table>
+            <tbody>
+              <tr class="my-2"></tr>
+              <tr>
+                <td style="width: 20%"></td>
+                <td style="width: 80%">
+                  <div class="alert alert-primary">Valor Reserva $200.000</div>
+                  <p class="normal-text mx-2">
+                    Te entregamos la siguiente información referencial para que
+                    tengas mayor seguridad en tu inversión
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="mx-2 my-3">
+        <table>
+          <tbody>
+            <tr>
+              <td style="width: 5%"></td>
+              <td style="width: 25%">
+                <button mat-raised-button [routerLink]="['/pasotresinversion']">
+                  <h6 class="first-title pt-2">Volver</h6>
+                </button>
+              </td>
+              <td style="width: 40%"></td>
+              <td style="width: 25%">
+                <button
+                  mat-raised-button
+                  color="#00C29F"
+                  [routerLink]="['/edicioninversion']"
+                >
+                  Siguiente
+                </button>
+              </td>
+              <td style="width: 5%"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

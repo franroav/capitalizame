@@ -1,0 +1,214 @@
+<!--PASO 2-->
+<div class="row my-1 animated fadeIn pasoDos" *ngIf="windowSize.x < 485">
+  <div class="col-md-12" style="background-color: #fff">
+    <h5 class="first-title mt-5 pl-2">Simula tu inversión - PASO 2 DE 3</h5>
+    <hr class="bg bg-info" />
+  </div>
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-header">
+        <h6 class="first-title">Proyecto el Cobre II - Santiago</h6>
+        <div class="my-2">
+          <h3 class="text-simulation">
+            Tu pie a pagar es de
+            <a class="color-darkblue">$13.800.000</a>
+            y lo puedes pagar hasta en
+            <a class="color-darkblue">20 cuotas,</a>
+            distribuidas de la siguiente manera:
+          </h3>
+        </div>
+        <div class="my-2">
+          <table>
+            <thead>
+              <tr>
+                <th>
+                  <h6 class="first-title pl-2">
+                    ¿Que % de pie quieres Pagar?
+                    <button
+                      mat-flat-button
+                      matTooltip=" ❔ El mínimo permitido por la inmobiliaria es el 15%"
+                      matTooltipClass="custom-tooltip-capitalizame"
+                      aria-label="monto minimo abono 15%"
+                    >
+                      <img
+                        class="px-1"
+                        src="../../../assets/services/ilustrations/Vector/question-circle.png"
+                      />
+                    </button>
+                  </h6>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="row">
+                <td style="width: 25%">
+                  <div class="col-md-3">15%</div>
+                </td>
+                <td style="width: 50%">
+                  <div class="col-md-9">
+                    <i class="fa fa-edit text-primary"></i>
+                  </div>
+                </td>
+                <td style="width: 25%"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="my-2">
+          <table>
+            <thead>
+              <tr>
+                <th>
+                  <h6 class="first-title pl-2">
+                    ¿Cuánto puedes abonar al pie?
+                    <button
+                      mat-flat-button
+                      matTooltip=" 💡 A mayor abono en efectivo, menor valor de la cuota de tu pie."
+                      matTooltipClass="custom-tooltip-capitalizame"
+                      aria-label="Abona con Capitalizarme"
+                    >
+                      <img
+                        class="px-1"
+                        src="../../../assets/services/ilustrations/Vector/light-bulb.png"
+                      />
+                    </button>
+                  </h6>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="row">
+                <td style="width: 25%">
+                  <div class="col-md-3">0%</div>
+                </td>
+                <td style="width: 50%">
+                  <div class="col-md-9">
+                    <i class="fa fa-edit text-primary"></i>
+                  </div>
+                </td>
+                <td style="width: 25%"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h1 class="title-nombre-edificio pl-2 my-2">
+          Resumen monto total del pie
+        </h1>
+      </div>
+      <div class="card-body">
+        <div class="table-responsive">
+          <table class="table table-sm">
+            <thead>
+              <tr>
+                <td style="width: 70%"></td>
+                <td style="width: 30%">
+                  <img
+                    class="pr-1"
+                    src="../../../assets/services/ilustrations/Vector/Twitch texto Inactivo.png"
+                  />
+                </td>
+              </tr>
+            </thead>
+            <thead class="mt-5">
+              <tr>
+                <th><h6 class="first-title pl-2">Unidades</h6></th>
+                <th><h6 class="first-title pl-2">Precio($)</h6></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table-light">
+                <td></td>
+              </tr>
+              <tr class="table-info py-2">
+                <td>Pie total(15%)</td>
+                <td>$8.000.000</td>
+              </tr>
+              <tr class="table-light">
+                <td></td>
+              </tr>
+              <tr class="table-info py-2">
+                <td>- Abono</td>
+                <td>- $400.000</td>
+              </tr>
+              <tr class="table-light">
+                <td></td>
+              </tr>
+              <tr class="table-info py-2">
+                <td>Reserva</td>
+                <td>$200.000</td>
+              </tr>
+              <tr class="table-light">
+                <td></td>
+              </tr>
+              <tr class="table-primary py-2">
+                <td><h3 class="text-primary">Pie a Pagar</h3></td>
+                <td>$7.400.000</td>
+              </tr>
+              <tr class="table-light">
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="table-responsive my-2">
+          <table class="table table-sm">
+            <tbody>
+              <tr>
+                <td style="width: 80%">
+                  <h3 class="text-simulation">
+                    Y los
+                    <a class="color-darkblue">$42.000.000 (85%) restantes</a>
+                    deberás cubrirlos con un
+                    <a class="color-darkblue">crédito hipotecario</a>
+                  </h3>
+                </td>
+                <td style="width: 20%">
+                  <button
+                    mat-flat-button
+                    matTooltip="💡 Si inviertes en Capitalizarme.com te ayudamos a conseguir la mejor alternativa de crédito hipotecario, y todo esto sin costo para ti! 😃"
+                    matTooltipClass="custom-tooltip-capitalizame"
+                    aria-label="Iniverte en Capitalizarme"
+                  >
+                    <img
+                      class="px-1"
+                      src="../../../assets/services/ilustrations/Vector/light-bulb.png"
+                    />
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="mx-2 mt-5 mb-2">
+        <table>
+          <tbody>
+            <tr>
+              <td style="width: 5%"></td>
+              <td style="width: 25%">
+                <button mat-raised-button [routerLink]="['/pasounoinversion']">
+                  <h6 class="first-title pt-2">Volver</h6>
+                </button>
+              </td>
+              <td style="width: 40%"></td>
+              <td style="width: 25%">
+                <button
+                  mat-raised-button
+                  color="primary"
+                  [routerLink]="['/pasotresinversion']"
+                >
+                  Siguiente
+                </button>
+              </td>
+              <td style="width: 5%"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

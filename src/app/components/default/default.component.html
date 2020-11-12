@@ -1,0 +1,401 @@
+<!--BREADCRUMBS-->
+
+<nav
+  aria-label="breadcrumb"
+  class="my-3 text-center"
+  *ngIf="windowSize.x < 485"
+>
+  <ol class="breadcrumb breadcrumbs-capitalizame mx-5">
+    <li class="breadcrumb-item">Inicio</li>
+    <li class="breadcrumb-item">Proyectos</li>
+    <li class="breadcrumb-item">Nombre Proyecto</li>
+    <li class="breadcrumb-item">
+      <a [routerLink]="['/']">Unidad 2002</a>
+    </li>
+  </ol>
+</nav>
+
+<!--CARD-->
+<div
+  class="row my-1 animated fadeIn cardfirstDefault"
+  *ngIf="windowSize.x < 485"
+>
+  <div class="col-md-12">
+    <div class="card text-center">
+      <table>
+        <div class="tr row card-body">
+          <td style="width: 70%">
+            <div class="col-md-8 col-sm-8 col-xs-8">
+              <h4 class="first-title pt-2 pl-4">
+                <strong>
+                  ! Esta Podria Ser tu <br />
+                  Proxima Inversión !
+                </strong>
+              </h4>
+            </div>
+          </td>
+          <td style="width: 30%">
+            <div class="col-md-3 col-sm-3 col-xs-3 offset-md-1 text-right">
+              <img
+                style="float: right"
+                src="../../../assets/services/ilustrations/Vector/clip-1.png"
+              />
+            </div>
+          </td>
+        </div>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!--SLIDER-->
+<div class="row my-1 animated fadeIn sliderDefault" *ngIf="windowSize.x < 485">
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-body">
+        <div class="container-fluid">
+          <ngb-carousel>
+            <ng-template ngbSlide>
+              <div class="wrapper">
+                <img
+                  src="../../../assets/services/ilustrations/Vector/Img-proyect.png"
+                />
+              </div>
+              <div class="carousel-caption">
+                <!-- <h3>First Slide</h3>
+                  <p>Angular 10 Carousel Example</p>-->
+              </div>
+            </ng-template>
+            <ng-template ngbSlide>
+              <div class="wrapper">
+                <img
+                  src="../../../assets/services/ilustrations/Vector/Img-proyect.png"
+                />
+              </div>
+              <div class="carousel-caption">
+                <!--  <h3>Second Slide</h3>
+                  <p>Check out Techiediaries</p>-->
+              </div>
+            </ng-template>
+            <ng-template ngbSlide>
+              <div class="wrapper">
+                <img
+                  src="../../../assets/services/ilustrations/Vector/Img-proyect.png"
+                />
+              </div>
+              <div class="carousel-caption">
+                <!--  <h3>Third Slide</h3>
+                  <p>for full tutorial...</p>-->
+              </div>
+            </ng-template>
+          </ngb-carousel>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--CONTENIDO -->
+<div
+  class="row my-1 animated fadeIn DefaultContainerOne"
+  *ngIf="windowSize.x < 485"
+>
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-body">
+        <h1 class="title-nombre-edificio">Plaza el Cobre</h1>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="row no-gutters ml-1">
+              <div class="col-auto">
+                <img
+                  src="../../../assets/services/ilustrations/Vector/geo-alt.png"
+                  class="img-fluid pl-2"
+                  alt=""
+                  width="32px"
+                />
+              </div>
+              <div class="col">
+                <h4 class="pl-2 price-title">Renca</h4>
+              </div>
+            </div>
+            <div class="row"></div>
+          </div>
+          <!--UNIDADES -->
+          <div class="ml-4 my-2">
+            <h6 class="title-unidad">Unidad N°. 2002</h6>
+            <h6 class="metros-unidad">
+              <strong>42,5 mts</strong>
+            </h6>
+          </div>
+
+          <!---TABLA METRICAS DEL EDIFICIO-->
+          <div class="table-responsive-sm">
+            <table
+              class="table table-responsive table-borderless text-center"
+              style="width: 100%"
+            >
+              <tbody>
+                <tr>
+                  <td style="width: 30%">
+                    <tr>
+                      <td style="width: 30%">
+                        <img
+                          src="../../../assets/services/ilustrations/Vector/card-heading.png"
+                        />
+                      </td>
+                      <td style="width: 70%">
+                        <h5 class="text-primary">Tipología</h5>
+                        <p><small>1D - 1B - CA</small></p>
+                      </td>
+                    </tr>
+                  </td>
+                  <td style="width: 25%"></td>
+                  <td style="width: 30%">
+                    <tr>
+                      <td style="width: 30%">
+                        <img
+                          src="../../../assets/services/ilustrations/Vector/building.png"
+                        />
+                      </td>
+                      <td style="width: 70%">
+                        <h5 class="text-primary">Pisos</h5>
+                        <h6>20</h6>
+                      </td>
+                    </tr>
+                  </td>
+                  <td style="width: 15%"></td>
+                </tr>
+                <tr>
+                  <td style="width: 30%">
+                    <tr>
+                      <td style="width: 30%">
+                        <img
+                          src="../../../assets/services/ilustrations/Vector/subTerraza.png"
+                        />
+                      </td>
+                      <td style="width: 70%">
+                        <h5 class="text-primary">Sub. Terraza</h5>
+                        <p><small>9,32 mt2</small></p>
+                      </td>
+                    </tr>
+                  </td>
+                  <td style="width: 25%"></td>
+                  <td style="width: 30%">
+                    <tr>
+                      <td style="width: 30%">
+                        <img
+                          src="../../../assets/services/ilustrations/Vector/brightness-high.png"
+                        />
+                      </td>
+                      <td style="width: 70%">
+                        <h5 class="text-primary">Orientación</h5>
+                        <h6>Oeste</h6>
+                      </td>
+                    </tr>
+                  </td>
+                  <td style="width: 15%"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <br />
+          <div class="table-responsive-sm ml-3">
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <h5 class="valor-title">Valor depto.</h5>
+                    <h2 class="price-title">
+                      <strong>$ 69.940.154</strong>
+                    </h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="50%">
+                    <h5 class="valor-title">Valor depto.</h5>
+                    <h2 class="price-title">
+                      <strong>UF 2.439</strong>
+                    </h2>
+                  </td>
+                  <td width="50%">
+                    <h5 class="pb-1 valor-title">Valor UF</h5>
+                    <h2 class="price-uf">
+                      <strong>$ 28.675</strong>
+                    </h2>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--CONTENIDO-->
+  <div class="row my-1" *ngIf="windowSize.x < 485">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-body">
+          <div class="mx-1 my-3">
+            <h3 class="text-credit-title">Simula tu inversión</h3>
+            <h3 class="text-credit-title-light">
+              Encuentra la fórmula perfecta para ti
+            </h3>
+            <h3 class="text-credit-title">E invierte en tu futuro</h3>
+            <div class="my-5">
+              <h3 class="text-simulation">
+                Desbloquea la simulación
+                <a href="">ingresando a tu portal o regístrate</a> si aun no
+                tienes tu cuenta capitalizarme.com
+              </h3>
+            </div>
+          </div>
+          <div class="row my-3">
+            <div class="col-md-12">
+              <div class="card">
+                <table>
+                  <div class="tr row card-body">
+                    <td style="width: 50%">
+                      <div
+                        class="col-md-3 col-sm-3 col-xs-3 offset-md-1 text-right"
+                      >
+                        <img
+                          style="float: center"
+                          src="../../../assets/services/ilustrations/Vector/clip-sign-up.png"
+                        />
+                      </div>
+                    </td>
+                    <td style="width: 50%">
+                      <div class="col-md-8 col-sm-8 col-xs-8">
+                        <div class="row">
+                          <img
+                            class="my-2"
+                            style="float: center"
+                            src="../../../assets/services/ilustrations/Vector/Rent_Verde.png"
+                          />
+                        </div>
+                        <div class="row">
+                          <h4 class="normal-text text-left">
+                            Conoce nuestro servicio de
+                            <a style="color: #6eb42c">
+                              administración y gestión</a
+                            >
+                            de propiedades
+                          </h4>
+                        </div>
+                      </div>
+                    </td>
+                  </div>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="row" style="background-color: #2b587a">
+            <div class="col-md-12">
+              <div class="card" style="background-color: #2b587a">
+                <div class="row text-center my-3">
+                  <div class="col-md-12">
+                    <img
+                      src="../../../assets/services/ilustrations/Vector/logo-horizontal-blanco-alineado 1.png"
+                    />
+                  </div>
+                </div>
+                <div class="row text-center my-3">
+                  <div class="col-md-12">
+                    <img
+                      src="../../../assets/services/ilustrations/Vector/Rent Blanco.png"
+                    />
+                  </div>
+                </div>
+                <div class="row text-center my-3">
+                  <div class="col-md-6">
+                    <img
+                      src="../../../assets/services/ilustrations/Vector/brickop-MarketPlace-blanco 1.png"
+                    />
+                  </div>
+                  <div class="col-md-6"></div>
+                </div>
+                <div class="row pl-4 my-5">
+                  <h1 class="footer-title">Oficinas Capitalizarme.com</h1>
+                  <small class="footer-direccion"
+                    >Av. Apoquindo 5583. Piso 4, Oficina 41. Las Condes,
+                    Santiago, Chile
+                  </small>
+                </div>
+                <div class="row text-center pl-4">
+                  <h6 class="footer-title">Políticas de Privacidad</h6>
+                </div>
+                <div class="row text-center pl-4">
+                  <h6 class="footer-title">Descargo de responsabilidad</h6>
+                </div>
+                <div class="row my-5 pl-4">
+                  <h6 class="footer-title">Descargo de responsabilidad</h6>
+                  <small class="footer-direccion"
+                    >Av. Apoquindo 5583. Piso 4, Oficina 41. Las Condes,
+                    Santiago, Chile
+                  </small>
+                </div>
+                <div class="row mx-2 my-5 text-center">
+                  <table style="width: 100%">
+                    <tbody>
+                      <tr>
+                        <td style="width: 16%">
+                          <img
+                            class="px-3"
+                            src="../../../assets/services/ilustrations/Vector/fa-brands_spotify.png"
+                            class="circle"
+                          />
+                        </td>
+                        <td style="width: 16%">
+                          <img
+                            class="px-3"
+                            src="../../../assets/services/ilustrations/Vector/facebook.png"
+                            class="circle"
+                          />
+                        </td>
+                        <td style="width: 16%">
+                          <a href="">
+                            <img
+                              class="px-1"
+                              src="../../../assets/services/ilustrations/Vector/fa-brands_instagram-square.png"
+                              class="circle"
+                          /></a>
+                        </td>
+                        <td style="width: 16%">
+                          <a href="">
+                            <img
+                              class="px-1"
+                              src="../../../assets/services/ilustrations/Vector/fa-brands_linkedin.png"
+                              class="circle"
+                          /></a>
+                        </td>
+                        <td style="width: 16%">
+                          <a href="">
+                            <img
+                              class="px-1"
+                              src="../../../assets/services/ilustrations/Vector/fa-brands_twitter.png"
+                              class="circle"
+                          /></a>
+                        </td>
+                        <td style="width: 16%">
+                          <a href="">
+                            <img
+                              class="px-1"
+                              src="../../../assets/services/ilustrations/Vector/fa-brands_youtube.png"
+                              class="circle"
+                          /></a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

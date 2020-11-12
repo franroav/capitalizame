@@ -1,0 +1,264 @@
+<!--PASO 3-->
+<div class="row my-3 animated fadeIn pasoTres" *ngIf="windowSize.x < 485">
+  <div class="col-md-12" style="background-color: #fff">
+    <h5 class="first-title mt-5 pl-2">Simula tu inversión - PASO 3 DE 3</h5>
+    <hr class="bg bg-info" />
+  </div>
+  <div class="col-md-12">
+    <!---CARD -->
+    <div class="card">
+      <div class="card-header">
+        <h6 class="first-title">Proyecto el Cobre II - Santiago</h6>
+        <div class="my-2">
+          <h3 class="text-simulation">
+            Tu pie a pagar es de
+            <a class="color-darkblue">$13.800.000</a>
+            y lo puedes pagar hasta en
+            <a class="color-darkblue">20 cuotas,</a>
+            distribuidas de la siguiente manera:
+          </h3>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="table-responsive my-2">
+          <table class="table table-sm">
+            <thead>
+              <tr>
+                <td style="width: 70%"></td>
+                <td style="width: 30%">
+                  <img
+                    style="float: right"
+                    class="pr-1"
+                    src="../../../assets/services/ilustrations/Vector/Twitch texto Inactivo.png"
+                  />
+                </td>
+              </tr>
+            </thead>
+            <thead class="mt-5">
+              <tr>
+                <th><h6 class="first-title pl-2">Unidades</h6></th>
+                <th><h6 class="first-title pl-2">Cuotas</h6></th>
+                <th><h6 class="first-title pl-2">Precio($)</h6></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table-light">
+                <td></td>
+              </tr>
+              <tr class="table-info py-2">
+                <td>
+                  Pre Entrega
+                  <button
+                    mat-icon-button
+                    matTooltip=" ❔ Corresponden a cuotas que deberás pagar en cheques, hasta que el edificio sea entregado."
+                    matTooltipClass="custom-tooltip-capitalizame"
+                    matTooltipPosition="above"
+                    aria-label="monto minimo abono 15%"
+                  >
+                    <img
+                      width="25px"
+                      class="px-1"
+                      src="../../../assets/services/ilustrations/Vector/question-circle.png"
+                    />
+                  </button>
+                </td>
+                <td>15 Cheques</td>
+                <td>$150.000</td>
+              </tr>
+              <tr class="table-light">
+                <td></td>
+              </tr>
+              <tr class="table-info py-2">
+                <td>
+                  Pos-entrega
+                  <button
+                    mat-icon-button
+                    matTooltip=" ❔ Este monto la inmobiliaria te permitirá pagarlo posterior a que recibas tu departamento, esto generalmente implica dejar un cheque extra al momento de la firma de la promesa por el monto total, y una vez que se firme la escritura se consideran estas cuotas en Tarjeta de Crédito."
+                    matTooltipClass="custom-tooltip-capitalizame"
+                    matTooltipPosition="above"
+                    aria-label="monto minimo abono 15%"
+                  >
+                    <img
+                      width="25px"
+                      class="px-1"
+                      src="../../../assets/services/ilustrations/Vector/question-circle.png"
+                    />
+                  </button>
+                </td>
+                <td>5 T.Crédito</td>
+                <td>$200.000</td>
+              </tr>
+              <tr class="table-light">
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="my-2">
+          <table>
+            <thead>
+              <tr>
+                <th>
+                  <h6 class="first-title pl-2">
+                    <button
+                      mat-icon-button
+                      matTooltip="💡 Este monto la inmobiliaria te permitirá pagarlo posterior a que recibas tu departamento, esto generalmente implica dejar un cheque extra al momento de la firma de la promesa por el monto total, y una vez que se firme la escritura se consideran estas cuotas en Tarjeta de Crédito."
+                      matTooltipClass="custom-tooltip-capitalizame"
+                      matTooltipPosition="above"
+                      aria-label="Abona con Capitalizarme"
+                    >
+                      <img
+                        class="px-1"
+                        src="../../../assets/services/ilustrations/Vector/light-bulb.png"
+                      />
+                    </button>
+                    Dividendo referencial
+                  </h6>
+                </th>
+              </tr>
+              <tr>
+                <p class="normal-text mx-2">
+                  Te entregamos la siguiente información referencial para que
+                  tengas mayor seguridad en tu inversión
+                </p>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <!---->
+        <div class="my-2 table-responsive">
+          <table class="table table-sm">
+            <thead>
+              <tr>
+                <th><h6 class="first-title pl-2">Años</h6></th>
+                <th>
+                  <h6 class="first-title pl-2">
+                    Tasa
+                    <button
+                      mat-icon-button
+                      matTooltip=" ❔ Tasa referencial, correspondiente a lo otorgado por instituciones financieras en simulaciones online."
+                      matTooltipClass="custom-tooltip-capitalizame"
+                      matTooltipPosition="above"
+                      aria-label="monto minimo abono 15%"
+                    >
+                      <img
+                        width="25px"
+                        class="px-1"
+                        src="../../../assets/services/ilustrations/Vector/question-circle.png"
+                      />
+                    </button>
+                  </h6>
+                </th>
+                <th>
+                  <h6 class="first-title pl-2">
+                    Dividendo
+                    <button
+                      mat-icon-button
+                      matTooltip=" ❔ Dividendo referencial, no considera seguros y otros costos que hacen que este no sea exacto."
+                      matTooltipClass="custom-tooltip-capitalizame"
+                      matTooltipPosition="above"
+                      aria-label="monto minimo abono 15%"
+                    >
+                      <img
+                        width="25px"
+                        class="px-1"
+                        src="../../../assets/services/ilustrations/Vector/question-circle.png"
+                      />
+                    </button>
+                  </h6>
+                </th>
+                <th>
+                  <h6 class="first-title pl-2">
+                    Renta
+                    <button
+                      mat-icon-button
+                      matTooltip=" ❔ Esta es la renta mensual que tendrás que justificar al banco, dependiendo de la cantidad de años en la que quieras sacar tu Crédito Hipotecario, esta se calcula multiplicando por 4 el valor del dividendo."
+                      matTooltipClass="custom-tooltip-capitalizame"
+                      matTooltipPosition="left"
+                      aria-label="monto minimo abono 15%"
+                    >
+                      <img
+                        width="25px"
+                        class="px-1"
+                        src="../../../assets/services/ilustrations/Vector/question-circle.png"
+                      />
+                    </button>
+                  </h6>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table-light">
+                <td></td>
+              </tr>
+              <tr class="table-info py-2">
+                <td>30</td>
+                <td>3,000 %</td>
+                <td>$150.000</td>
+                <td>$715.000</td>
+              </tr>
+              <tr class="table-light">
+                <td></td>
+              </tr>
+              <tr class="table-info py-2">
+                <td>25</td>
+                <td>2,80%</td>
+                <td>$150.000</td>
+                <td>$415.000</td>
+              </tr>
+              <tr class="table-light">
+                <td></td>
+              </tr>
+              <tr class="table-info py-2">
+                <td>20</td>
+                <td>2,60%</td>
+                <td>$150.000</td>
+                <td>$300.000</td>
+              </tr>
+              <tr class="table-light">
+                <td></td>
+              </tr>
+              <tr class="table-info py-2">
+                <td>15</td>
+                <td>2,48%</td>
+                <td>$150.000</td>
+                <td>$300.000</td>
+              </tr>
+              <tr class="table-light">
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!--Card-->
+    <div class="card">
+      <div class="mx-2 mt-5 mb-2">
+        <table>
+          <tbody>
+            <tr>
+              <td style="width: 5%"></td>
+              <td style="width: 25%">
+                <button mat-raised-button [routerLink]="['/pasodosinversion']">
+                  <h6 class="first-title pt-2">Volver</h6>
+                </button>
+              </td>
+              <td style="width: 40%"></td>
+              <td style="width: 25%">
+                <button
+                  mat-raised-button
+                  color="primary"
+                  [routerLink]="['/resumeninversion']"
+                >
+                  Siguiente
+                </button>
+              </td>
+              <td style="width: 5%"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

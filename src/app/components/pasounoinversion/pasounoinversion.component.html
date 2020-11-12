@@ -1,0 +1,236 @@
+<!--PASO  1-->
+
+<div class="row my-1 animated fadeIn pasoUno" *ngIf="windowSize.x < 485">
+  <div class="col-md-12" style="background-color: #fff">
+    <h5 class="first-title mt-5 pl-2">Simula tu inversión - PASO 1 DE 3</h5>
+    <hr class="bg bg-info" />
+  </div>
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-header">
+        <h6 class="first-title">Proyecto el Cobre II - Santiago</h6>
+        <div class="table-responsive-sm">
+          <table>
+            <thead>
+              <tr>
+                <th>
+                  <h6 class="first-title pl-2">
+                    ¿Deseas agregar estacionamiento?
+                  </h6>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="row">
+                <td style="width: 25%">
+                  <div class="col-md-3">
+                    <img
+                      class="px-1"
+                      src="../../../assets/services/ilustrations/Vector/car-garage.png"
+                    />
+                  </div>
+                </td>
+                <td style="width: 50%">
+                  <div class="col-md-9">
+                    <mat-form-field style="width: 88%">
+                      <mat-select placeholder="128B">
+                        <mat-select-trigger>
+                          <mat-icon>home</mat-icon>&nbsp;
+                        </mat-select-trigger>
+                        <mat-option value="128B">
+                          <mat-icon [ngStyle]="{ color: 'blue' }"
+                            >home</mat-icon
+                          >
+                          128B
+                        </mat-option>
+                        <mat-option value="117B">
+                          <mat-icon [ngStyle]="{ color: 'red' }">home</mat-icon>
+                          117B
+                        </mat-option>
+                        <mat-option value="129C">
+                          <mat-icon [ngStyle]="{ color: 'blue' }"
+                            >home</mat-icon
+                          >
+                          129C
+                        </mat-option>
+                        <mat-option value="130A">
+                          <mat-icon [ngStyle]="{ color: 'red' }">home</mat-icon>
+                          130A
+                        </mat-option>
+                        <mat-option value="105B">
+                          <mat-icon [ngStyle]="{ color: 'blue' }"
+                            >home</mat-icon
+                          >
+                          105B
+                        </mat-option>
+                      </mat-select>
+                    </mat-form-field>
+                  </div>
+                </td>
+                <td style="width: 25%">
+                  <div class="col-md-3">
+                    <button
+                      mat-flat-button
+                      matTooltip=" 💡 Si quieres comprar más de 1 estacionamiento puedes contactar a un Broker aquí"
+                      matTooltipClass="custom-tooltip-capitalizame"
+                      aria-label="Estacionamiento aquí."
+                    >
+                      <img
+                        class="px-1"
+                        src="../../../assets/services/ilustrations/Vector/light-bulb.png"
+                      />
+                    </button>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="table-responsive-sm">
+          <table>
+            <thead>
+              <tr>
+                <th>
+                  <h6 class="first-title pl-2">
+                    ¿Deseas agregar estacionamiento?
+                  </h6>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="row">
+                <td style="width: 25%">
+                  <div class="col-md-3">
+                    <img
+                      class="px-1"
+                      src="../../../assets/services/ilustrations/Vector/box-seam.png"
+                    />
+                  </div>
+                </td>
+                <td style="width: 50%">
+                  <div class="col-md-9">
+                    <mat-form-field style="width: 88%">
+                      <mat-select placeholder="Seleccionar">
+                        <mat-select-trigger>
+                          <mat-icon>home</mat-icon>&nbsp;
+                        </mat-select-trigger>
+                        <mat-option value="option1">
+                          <mat-icon [ngStyle]="{ color: 'red' }">home</mat-icon>
+                          option1
+                        </mat-option>
+                      </mat-select>
+                    </mat-form-field>
+                  </div>
+                </td>
+                <td style="width: 20%">
+                  <div class="col-md-3">
+                    <button
+                      mat-flat-button
+                      matTooltip="Si quieres comprar más de 1 bodega puedes contactar a un Broker aquí."
+                      matTooltipClass="custom-tooltip-capitalizame"
+                      aria-label="bodega aquí."
+                    >
+                      <img
+                        class="px-1"
+                        src="../../../assets/services/ilustrations/Vector/light-bulb.png"
+                      />
+                    </button>
+                  </div>
+                </td>
+                <td style="width: 5%"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h1 class="title-nombre-edificio pl-2">
+          Resumen valor total de tu inversión
+        </h1>
+      </div>
+      <div class="card-body">
+        <div class="table-responsive my-2">
+          <table class="table table-sm">
+            <thead>
+              <tr>
+                <td style="width: 70%"></td>
+                <td style="width: 30%">
+                  <img
+                    class="pr-1"
+                    src="../../../assets/services/ilustrations/Vector/Twitch texto Inactivo.png"
+                  />
+                </td>
+              </tr>
+            </thead>
+            <thead class="mt-5">
+              <tr>
+                <th><h6 class="first-title pl-2">Unidades</h6></th>
+                <th><h6 class="first-title pl-2">Precio($)</h6></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table-light">
+                <td></td>
+              </tr>
+              <tr class="table-primary py-2">
+                <td>Departamento 2002</td>
+                <td>$49.715.000</td>
+              </tr>
+              <tr class="table-light">
+                <td></td>
+              </tr>
+              <tr class="table-primary py-2">
+                <td>Estacionamiento 128B</td>
+                <td>$415.000</td>
+              </tr>
+              <tr class="table-light">
+                <td></td>
+              </tr>
+              <tr class="table-primary py-2">
+                <td>bodega 117B</td>
+                <td>$300.000</td>
+              </tr>
+              <tr class="table-light">
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h1 class="title-nombre-edificio pl-2">
+          El valor total de tu inversión es
+        </h1>
+        <h2 class="price-title">
+          <strong>$ 69.940.154</strong>
+        </h2>
+      </div>
+    </div>
+    <div class="card">
+      <div class="table-responsive mx-2 mt-5 mb-2">
+        <table class="table table-sm">
+          <tbody>
+            <tr>
+              <td style="width: 5%"></td>
+              <td style="width: 25%">
+                <button mat-raised-button [routerLink]="['']">
+                  <h6 class="first-title pt-2">Volver</h6>
+                </button>
+              </td>
+              <td style="width: 40%"></td>
+              <td style="width: 25%">
+                <button
+                  mat-raised-button
+                  color="primary"
+                  [routerLink]="['/pasodosinversion']"
+                >
+                  Siguiente
+                </button>
+              </td>
+              <td style="width: 5%"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

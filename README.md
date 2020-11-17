@@ -1,6 +1,11 @@
 # Capitalizarme
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.6.
 
+
+## instrucciones 
+
+Usar Npm install para instalar las dependencias, ng serve para compilar el proyecto, usar chrome dev tool con el boton segundario del mous en el navegador y seleccionar el boton en la parte superior derecha con forma de dispositvo Movil Mas información:  https://developers.google.com/web/tools/chrome-devtools/device-mode?hl=es
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
